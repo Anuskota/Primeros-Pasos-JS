@@ -112,14 +112,17 @@ console.log(newScore());
 /*Eliminar datos de array si es par*/
 
 function esPar() {
+    let scoreArray = [];
     for (let i = 0; i < score.length; i++){
         if (i % 2 == 0) {
-            score.splice[i];
-        
+        score.splice[i];
+
+        } else {
+            scoreArray.push(i)
         }
         
     }
-    return score;
+    return scoreArray;
 }
 console.log(esPar());
 
