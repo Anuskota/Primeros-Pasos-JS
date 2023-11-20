@@ -61,6 +61,74 @@ console.log(par(num));
 
 /*Objetos*/
 
+let myCar = {
+    "name": "Renault Anuska",
+    "age": 6,
+    "puertas": 5,
+    "deportivo": true,
+    "extras": ["faros", "descapotable", "diesel"]
+};
+
+console.log(myCar.name);
+console.log(myCar.extras);
+
+/*Mostrar las propiedades mediante funciones*/
+
+function marcaDelCoche() {
+    return myCar.name;
+
+}
+console.log(marcaDelCoche());
+
+function puertasDelCoche() {
+    return myCar.puertas;
+}
+
+console.log(puertasDelCoche());
+
+function extrasDelCoche() {
+    return myCar.extras;
+}
+
+console.log(extrasDelCoche());
+
+
+/*Arrays*/
+
+let score = [6, 78, 100, -25, 0, 11, -45, 33, 0, 74];
+
+function myScore() {
+    return score;
+}
+console.log(myScore());
+
+function newScore() {
+    score.push(66);
+    return score
+}
+
+console.log(newScore());
+
+/*Eliminar datos de array si es par*/
+
+function esPar() {
+    for (let i = 0; i < score.length; i++){
+        if (i % 2 == 0) {
+            score.splice[i];
+        
+        }
+        
+    }
+    return score;
+}
+console.log(esPar());
+
+
+
+
+
+
+
 
 
 
