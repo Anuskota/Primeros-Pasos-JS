@@ -126,6 +126,52 @@ function esPar() {
 }
 console.log(esPar());
 
+/*Array numero mayor y menor*/
+let years = [6, 78, 100, -25, 0, 11, -45, 33, 0, 74];
+
+function numeroMayor() {
+    return Math.max(...years);
+}
+numeroMayor();
+console.log(Math.max(...years));
+
+function numeroMenor() {
+    return Math.min(...years);
+
+}
+numeroMenor();
+console.log(Math.min(...years));
+
+/*Convertir una frase a Mayuscula y a Minuscula*/
+let antonioMachado = "Hoy es siempre todavía, toda la vida es ahora."
+
+function mayuscula() {
+    return antonioMachado.toUpperCase();
+}
+mayuscula();
+console.log(mayuscula());
+
+function minuscula() {
+    return antonioMachado.toLowerCase();
+}
+
+minuscula();
+console.log(minuscula());
+
+arrayGrupos = ["boikot", "reincidentes", "platero y tu", "extremoduro", "dakidarria"];
+
+function primeraMayuscula() {
+    let grupos = [];
+    for (let i = 0; arrayGrupos.length; i++){
+        grupos = arrayGrupos.splice()
+    }
+    
+    return grupos;
+}
+primeraMayuscula();
+
+console.log(primeraMayuscula());
+
 
 
 
